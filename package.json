@@ -1,0 +1,19 @@
+{
+  "name": "bankist",
+  "version": "1.0.0",
+  "description": "bank application",
+  "default": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "christian",
+  "license": "ISC",
+  "devDependencies": {
+    "as": "^0.4.1",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
+}
